@@ -2,6 +2,99 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .p-size {
+    @apply mt-5 mx-0 mb-0 max-w-xl;
+  }
+
+  .regular-12 {
+    @apply text-xs font-normal;
+  }
+
+  .regular-14 {
+    @apply text-sm font-normal;
+  }
+
+  .regular-16 {
+    @apply text-base font-normal;
+  }
+
+  .regular-18 {
+    @apply text-lg font-medium;
+  }
+
+  .bold-20 {
+    @apply text-xl font-bold;
+  }
+
+  .bold-24 {
+    @apply text-2xl font-bold;
+  }
+
+  .bold-30 {
+    @apply text-3xl font-bold;
+  }
+}
+
+@layer utilities {
+  .big-headings {
+    font-size: clamp(40px, 8vw, 80px);
+  }
+
+  .primary-btn {
+    font-family: var(--font-mono);
+    font-size: 14px;
+    line-height: 1;
+    color: var(--green);
+    margin:50px 0 0 0;
+    padding:1.25rem 1.75rem;
+    border-radius: 4px;
+    border: 1px solid var(--green);
+    text-decoration: none;
+    background-color: transparent;
+    transition: var(--transition);
+  }
+}
+
+:root {
+/* Fonts */
+  --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+  --font-sans: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
+
+  --white:#e6f1ff;
+  --slate:#8892b0;
+  --dark-slate: #495670;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --navy: #0a192f;
+  --dark-navy: #020c1b;
+  --light-navy: #112240;
+  --lightest-navy: #233554;
+  --green-tint: rgba(100,255,218,0.1);
+  --pink: #f57dff;
+  --blue: #57cbff;
+  --navy-shadow: rgba(2,12,27,0.7);
+  --green:#64ffda;
+  --easing: cubic-bezier(0.645,0.045,0.355,1);
+  --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+  --hamburger-width: 30px;
+  --ham-before: top 0.1s ease-in 0.25s,opacity 0.1s ease-in;
+  --ham-before-active: top 0.1s ease-out,opacity 0.1s ease-out 0.12s;
+  --ham-after: bottom 0.1s ease-in 0.25s,transform 0.22s cubic-bezier(0.55,0.055,0.675,0.19);
+  --ham-after-active: bottom 0.1s ease-out,transform 0.22s cubic-bezier(0.215,0.61,0.355,1) 0.12s;
+}
+
+html {
+  scrollbar-color: var(--dark-slate) var(--navy);
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--slate);
+  font-size: 20px;
+  line-height: 1.3;
+}
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -16,6 +109,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 
 a {
   font-weight: 500;
