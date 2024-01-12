@@ -33,25 +33,33 @@ export const projectShowcase = [
     {
         id:3,
         title:"Task Manager",
-        preview:"https://real-estates-ood.netlify.app",
+        preview:"",
         imgSrc:"url('')",
-        source:"https://github.com/IvanSarabeev/RealEstate-web-starterpack",
-        stack:["React","TypeScript","Tailwind","Vercel"],
-        text:"Searching app with minamalystic design, where you can find your favourite movie, also you get to search seemlessly and flawlessly, accross a collection of movies and if you don't have time, you can save them for later by adding them to your collection.",
+        source:"https://github.com/IvanSarabeev/TaskManager",
+        stack:["Laravel","PHP8","Alpine.js","MySQL","Tailwind","Bootstrap"],
+        text:"Task Manager is a secure task management app with user authentication, protected routes, and CRUD features. Organize, prioritize, and collaborate on tasks seamlessly with this intuitive solution. and mobile friendly design .",
     },    
 ] as const;
 
 export const noteworthProjects = [
     {
         id:1,
-        title:"Mish Mash",
-        preview:"https://mishmashgrillmeal.com",
-        source:"https://github.com/IvanSarabeev/Mish-Mash",
-        stack:["React","React-Router","Tailwind","Framer Motion"],
-        text:"Elevating Fast Food through Innovation 🚀 - 🍟 A UK-based online fast-food platform designed for convenience and flavor. - 💻 Tech Stack: React and Tailwind for a responsive UI. - 🌍 Leveraging Netlify for lightning-fast hosting.",
+        title:"Todo Application",
+        preview:"https://todo-app-olive-nine.vercel.app",
+        source:"https://github.com/IvanSarabeev/Todo-App",
+        stack:["React","TypeScript","Tailwind","Vercel"],
+        text:"Searching app with minamalystic design, where you can find your favourite movie, also you get to search seemlessly and flawlessly, accross a collection of movies and if you don't have time, you can save them for later by adding them to your collection.",
     },
     {
         id:2,
+        title:"Mish Mash",
+        preview:"https://mishmashgrillmeal.com",
+        source:"https://github.com/IvanSarabeev/Mish-Mash",
+        stack:["React","React-Router","Tailwind","Framer Motion","Netlify"],
+        text:"Elevating Fast Food through Innovation 🚀 - 🍟 A UK-based online fast-food platform designed for convenience and flavor. - 💻 Tech Stack: React and Tailwind for a responsive UI. - 🌍 Leveraging Netlify for lightning-fast hosting.",
+    },
+    {
+        id:3,
         title:"Hello-UE",
         preview:"",
         source:"https://github.com/IvanSarabeev/hello-ue",
@@ -59,11 +67,11 @@ export const noteworthProjects = [
         text:"I was participaiting in a project for \"IT-Masterclass №10\", in collaboration with other fellow programmers, we were developing functional specifications, through many API request and react libraries and many more JavaScript functionalities.",
     },
     {
-        id:2,
+        id:4,
         title:"Hockey Club - Varna",
         preview:"http://www.hcvarna.bg",
         source:"https://github.com/IvanSarabeev/Hockey-Club-Varna",
-        stack:["HTML5","CSS3","JavaScript","AnimateCss"],
+        stack:["HTML5","CSS3","JavaScript","Animate.css"],
         text:"I am happy to share that I've developed the website of our hockey club. I had the idea to focus on interactive design and a friendly interface that makes it easy to navigate and use for any user. The website provides information about the club and its events, supporting communication between the fans. \n I'm planning on changing the entire website by using React, Tailwind and Flowbite for the UI.",
     },
 ] as const;
