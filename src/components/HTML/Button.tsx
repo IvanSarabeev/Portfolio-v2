@@ -8,7 +8,7 @@ type ButtonAtrrs = ButtonHTMLAttributes<HTMLButtonElement>;
 
 const Button = ({children, ...restProps}:ButtonProp & ButtonAtrrs) => {
   return (
-    <button type='button' {...restProps}>
+    <button {...restProps}>
         {children}
     </button>
   )

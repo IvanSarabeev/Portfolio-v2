@@ -1,8 +1,14 @@
 import React from 'react'
 import { headerLinks } from 'constants/data'
 import Button from 'components/HTML/Button'
+import ResumeFile from 'assets/files/Ivan-Mihaylov-Sarabeev-Resume.pdf'
 
 const Header = () => {
+
+  const downloadResume = () => {
+    window.open(ResumeFile);
+  } 
+
   return (
     <header className='w-full fixed top-0 z-10 h-24 flex items-center justify-between filter-none backdrop-filter pointer-events-auto bg-header-bg sm:px-6 md:px-8 lg:px-10 xl:px-12'>
       <nav className='w-full relative z-20 flex items-center justify-between font-monts text-lightest-slate'>
@@ -25,9 +31,12 @@ const Header = () => {
                     )
                 })}
             </ol>
+            <div>
+                <Button type='button' className='primary-btn' rel='noreferrer' onClick={downloadResume}>Resume</Button>
+            </div>
         </div>
         <div className="flex md:hidden">
-            <Button>
+            <Button className='' type='button' aria-label='Menu'>
                 not empty
             </Button>
         </div>
