@@ -34,6 +34,18 @@
   .bold-30 {
     @apply text-3xl font-bold;
   }
+
+  .mobile-btn {
+    @apply relative z-30 w-fit h-fit flex items-center justify-center text-inherit p-4 -mr-4 border-0 bg-transparent ease-linear transition-opacity cursor-pointer;
+  }
+
+  .mobile-menu {
+    @apply fixed top-0 right-0 bottom-0 z-10 h-screen min-w-[75vw] max-w-[400px] flex items-center justify-center py-12 px-3 outline-none bg-light-navy visible translate-x-[0vw] shadow-mobile shadow-light-navy transition-all;
+  }
+
+  .mobile-nav {
+    @apply w-full flex flex-col items-center justify-between text-lightest-slate font-monts text-center;
+  }
 }
 
 @layer utilities {
@@ -41,7 +53,7 @@
     font-size: clamp(40px, 8vw, 80px);
   }
 
-  .primary-btn {
+  .email-btn {
     font-family: var(--font-mono);
     font-size: 14px;
     line-height: 1;
@@ -53,6 +65,72 @@
     text-decoration: none;
     background-color: transparent;
     transition: var(--transition);
+  }
+
+  .email-btn:hover {
+    outline:none;
+    transform: translate(-5px, -5px);
+    box-shadow: 4px 4px 0 0 var(--green);
+  }
+
+  .resume-btn {
+    font-family: var(--font-mono);
+    line-height: 1;
+    font-size: 14px;
+    color: var(--green);
+    padding:0.75rem 1rem;
+    border: 1px solid var(--green);
+    border-radius: 4px;
+    margin-left: 15px;
+    text-decoration: none;
+    transition: var(--transition);
+    background-color: transparent;
+  }
+
+  .resume-btn:hover {
+    outline:none;
+    transform: translate(-4px, -4px);
+    box-shadow: 3px 3px 0 0 var(--green);
+  }
+
+  .ham-icon {
+    position: absolute;
+    z-index: 20;
+    top:0;
+    right:0;
+    height: 54px;
+    width: 46px;
+    border-radius: 4px;
+    color: var(--green);
+    transform: rotate(0deg);
+    transition: transform 0.22s cubic-bezier(0.55, 0.55, 0.675, 0.19) 0s;
+  }
+
+  .ham-icon:focus {
+    outline-offset: 3px;
+    outline: 2px dashed var(--green);
+  }
+
+  .resume-mobile {
+    width: max-content;
+    height: auto;
+    padding:18px 50px;
+    margin:10% auto 0px;
+    font-family: var(--font-mono);
+    font-size: 14px;
+    line-height: 1;
+    color: var(--green);
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid var(--green);
+    background-color: transparent;
+    transition: var(--transition);
+  }
+
+  .resume-mobile:hover {
+    outline:none;
+    transform: translate(-5px, -5px);
+    box-shadow: 4px 4px 0 0 var(--green);
   }
 }
 
@@ -99,6 +177,10 @@ body {
   color: var(--slate);
   font-size: 20px;
   line-height: 1.3;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  background-color: var(--navy);
 }
 
 a {
@@ -106,4 +188,8 @@ a {
   text-decoration: none;
   text-decoration-skip-ink: auto;
   transition:var(--transition);
+}
+
+ol > li {
+  font-size: clamp(14px ,4vw, 18px);
 }

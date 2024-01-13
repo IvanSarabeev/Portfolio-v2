@@ -9,6 +9,7 @@
     "paths": {
       "components/*":["./src/components/*"],
       "constants/*":["./src/constants/*"],
+      "hooks/*":["./src/hooks/*"],
       "assets/*":["./src/assets/*"],
       "types/*":["./src/types/*"],
       "utils/*":["./src/utils/*"],
