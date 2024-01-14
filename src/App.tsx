@@ -1,9 +1,11 @@
-import Header from 'components/Navigation/Header'
+import Layout from 'components/Layout/Layout'
 
 const App = () => {
   return (
     <>
-      <Header />
+      <Layout>
+        da
+      </Layout>
     </>
   )
 }

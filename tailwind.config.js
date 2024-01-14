@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      maxWidth:{
+        'custom':'1600px',
+      },
       backgroundColor:{
         'header-bg':'rgba(10, 25, 47, 0.85)',
       },
