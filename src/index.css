@@ -56,11 +56,15 @@
   }
 
   .skills-list {
-    @apply relative regular-12 font-monts pl-5 mb-2.5 before:content-['▹'] before:absolute before:left-0 before:inset-y-auto before:regular-14 before:text-green;
+    @apply relative regular-12 font-monts pl-5 mb-2.5 before:content-['▹'] before:absolute before:left-0 before:inset-y-auto before:text-sm before:text-green hover:underline underline-offset-2 ease-slow-transition;
   }
 
   .img-wrapper {
-    @apply relative z-10 w-full align-middle block rounded bg-green shadow-navy ease-slow-transition before:absolute before:top-0 before:left-0 before:block before:w-full before:h-full before:rounded before:bg-navy before:ease-slow-transition before:mix-blend-screen hover:outline-none hover:-translate-y-1 hover:-translate-x-1 hover:shadow-navy after:absolute after:-z-10 after:left-4 after:top-4 after:size-full after:rounded after:bg-transparent after:border-green after:border-2;
+    @apply relative z-10 size-full align-middle block rounded bg-green shadow-navy ease-slow-transition hover:outline-none hover:-translate-y-1 hover:-translate-x-1 hover:shadow-navy hover:after:top-5 hover:after:ease-slow-transition hover:after:left-5 after:absolute after:-z-10 after:left-4 after:top-4 after:size-full after:rounded after:bg-transparent after:border-green after:border-2 after:hover:translate-y-1 after:hover:translate-x-1 after:mix-blend-screen;
+  }
+
+  .img-filter {
+    @apply relative size-full rounded grayscale contrast-100 mix-blend-multiply ease-slow-transition hover:transition-all hover:grayscale-0 hover:mix-blend-normal;
   }
 }
 
