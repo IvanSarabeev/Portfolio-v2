@@ -66,6 +66,10 @@
   .img-filter {
     @apply relative size-full rounded grayscale contrast-100 mix-blend-multiply ease-slow-transition hover:transition-all hover:grayscale-0 hover:mix-blend-normal;
   }
+
+  .list-btn {
+    @apply relative w-full h-8 min-w-32 flex items-center justify-center font-monts text-sm whitespace-nowrap text-center md:justify-start py-0 px-3.5 border-l-0 border-b-2 border-solid md:border-l-2 md:border-b-0 cursor-pointer border-lightest-navy hover:text-green hover:outline-none hover:bg-light-navy;
+  }
 }
 
 @layer utilities {
@@ -256,4 +260,5 @@ ol > li {
 section {
   max-width: 1000px;
   margin:0px auto;
+  padding-block:80px;
 }
