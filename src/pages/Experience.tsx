@@ -11,7 +11,7 @@ const jobList = [
 
 const Experience = () => {
   return (
-    <section id='experience' className="w-full h-dvh">
+    <section id='experience' className="section-layout">
         <h2 className="numbered-headings">Where I've Worked</h2>
         <div className="gap-5 block md:flex">
             <aside role="tablist" aria-label="Job tabs"

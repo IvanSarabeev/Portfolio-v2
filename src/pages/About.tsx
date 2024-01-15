@@ -11,7 +11,7 @@ const skillsList = [
 
 const About = () => {
   return (
-    <section id="about" className="w-full h-dvh">
+    <section id="about" className="section-layout">
         <h2 className="numbered-headings">About Me</h2>
         <article className="gap-12 grid grid-cols-1 md:grid-cols-2">
             <div className="block text-pretty">
@@ -29,7 +29,7 @@ const About = () => {
                     })}
                 </ul>
             </div>
-            <div className="relative size-[300px]">
+            <div className="relative size-[70%] md:size-[300px] mx-auto md:mx-0">
                 <div className="img-wrapper">
                     <div className="img-filter">
                         <img src={Main} alt="main" aria-hidden="true"

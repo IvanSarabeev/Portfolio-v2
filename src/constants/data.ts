@@ -12,9 +12,9 @@ export const socialLinks = [
 ] as const;
 
 export const experienceList = [
-    {id:1, title:"Hockey Club",subtitle:"Septemvri", period:"October 2023 - Present", text:""},
-    {id:2, title:"Ice Hockey Coach",subtitle:"HC Varna", period:"January 2021 - Present", text:""},
-    {id:3, title:"Instructor",subtitle:"OP Sport - Varna", period:"January 2020 - Present", text:""},
+    {id:1, title:"Hockey Club",subtitle:"@ Septemvri", period:"October 2023 - Present", text:""},
+    {id:2, title:"Ice Hockey Coach",subtitle:"@ HC Varna", period:"January 2021 - Present", text:""},
+    {id:3, title:"Instructor",subtitle:"@ OP Sport - Varna", period:"January 2020 - Present", text:""},
     {id:4, title:"Freelancer",subtitle:"", period:"Currently Active", text:""},
 ] as const;
 
