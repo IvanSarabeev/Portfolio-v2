@@ -1,10 +1,11 @@
 import Layout from 'components/Layout/Layout'
+import Home from './pages/Home'
 
 const App = () => {
   return (
     <>
       <Layout>
-        da
+        <Home />
       </Layout>
     </>
   )
