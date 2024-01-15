@@ -48,7 +48,7 @@
   }
 
   .section-layout {
-    @apply min-h-screen h-screen flex flex-col items-start justify-center p-0;
+    @apply min-h-screen h-dvh flex flex-col items-start justify-center p-0;
   }
 }
 
