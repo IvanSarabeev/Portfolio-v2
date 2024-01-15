@@ -43,6 +43,9 @@ export default {
       },
       boxShadowColor:{
         'light-navy':'rgba(2,12,27,0.7)',
+      },
+      gridTemplateColumns: {
+        'skills':' repeat(2, minmax(140px, 200px))',
       }
 
     },

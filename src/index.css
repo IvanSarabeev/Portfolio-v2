@@ -50,6 +50,18 @@
   .section-layout {
     @apply min-h-screen h-dvh flex flex-col items-start justify-center p-0;
   }
+
+  .skills-layout {
+    @apply gap-x-2.5 grid grid-cols-skills p-0 mt-5 list-none overflow-hidden;
+  }
+
+  .skills-list {
+    @apply relative regular-12 font-monts pl-5 mb-2.5 before:content-['▹'] before:absolute before:left-0 before:inset-y-auto before:regular-14 before:text-green;
+  }
+
+  .img-wrapper {
+    @apply relative z-10 w-full align-middle block rounded bg-green shadow-navy ease-slow-transition before:absolute before:top-0 before:left-0 before:block before:w-full before:h-full before:rounded before:bg-navy before:ease-slow-transition before:mix-blend-screen hover:outline-none hover:-translate-y-1 hover:-translate-x-1 hover:shadow-navy after:absolute after:-z-10 after:left-4 after:top-4 after:size-full after:rounded after:bg-transparent after:border-green after:border-2;
+  }
 }
 
 @layer utilities {
@@ -139,6 +151,41 @@
 
   .custom-text {
     font-size: clamp(14px, 5vw, 16px);
+  }
+
+  .numbered-headings {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin:10px 0 40px;
+    white-space: nowrap;
+    font-size: clamp(26px, 5vw, 32px);
+    color:var(--lightest-slate);
+    font-weight: 600;
+  }
+
+  .numbered-headings::before {
+    position: relative;
+    bottom: -4px;
+    counter-increment: section 1;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-weight: 400;
+    font-size: clamp(16px, 3vw, 20px);
+  }
+
+  .numbered-headings::after {
+    position: relative;
+    content: "";
+    display: block;
+    top: 5px;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    background-color: var(--lightest-navy);
   }
 }
 
