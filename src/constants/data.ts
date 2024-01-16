@@ -58,7 +58,7 @@ export const projectShowcase = [
         preview:"https://rent-vanlife.netlify.app",
         source:"https://github.com/IvanSarabeev/VanLife",
         imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705050811/omsispfx8xkexeg4a796.png",
-        stack:["React","TypeScript","Tailwind","Mirage","React-Router","Framer Motion","Netlify"],
+        stack:["React","TypeScript","Tailwind","Mirage","React-Router","Netlify"],
         text:"Welcome to VanLife, your go-to platform for renting vans and exploring the open road. This React-based website offers a seamless experience for both renters and hosts. Users can navigate through the Home, About, Vans, and Host sections that requiress authentication process to ensures a secure environment.",
     },
     {

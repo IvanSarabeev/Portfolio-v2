@@ -2,6 +2,7 @@ import Layout from 'components/Layout/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
 import Experience from './pages/Experience'
+import Projects from './pages/Projects'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Home />
         <About />
         <Experience />
+        <Projects />
       </Layout>
     </>
   )

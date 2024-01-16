@@ -196,6 +196,17 @@
   .job-titles {
     width: calc(100% + 100px);
   }
+
+  .project-img {
+    z-index: 1;
+    position: relative;
+    transition: var(--transition); 
+    box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  }
+
+  .project-headings {
+    font-size: clamp(24px, 5vw, 28px);
+  }
 }
 
 *,*::before,*::after {
