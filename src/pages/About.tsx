@@ -12,7 +12,9 @@ const skillsList = [
 const About = () => {
   return (
     <section id="about" className="section-layout">
-        <h2 className="numbered-headings">About Me</h2>
+        <h2 className="numbered-headings">
+            <span className="num-headings">01.</span> About Me
+        </h2>
         <article className="gap-12 grid grid-cols-1 md:grid-cols-2">
             <div className="block text-pretty">
                 <p className="mb-3.5">Hello, I'm Ivan Sarabeev, a passionate <strong className="text-green">  React Developer </strong> and Ice Hockey coach from Varna, Bulgaria.</p>

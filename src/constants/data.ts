@@ -12,10 +12,43 @@ export const socialLinks = [
 ] as const;
 
 export const experienceList = [
-    {id:1, title:"Hockey Club",subtitle:"@ Septemvri", period:"October 2023 - Present", text:""},
-    {id:2, title:"Ice Hockey Coach",subtitle:"@ HC Varna", period:"January 2021 - Present", text:""},
-    {id:3, title:"Instructor",subtitle:"@ OP Sport - Varna", period:"January 2020 - Present", text:""},
-    {id:4, title:"Freelancer",subtitle:"", period:"Currently Active", text:""},
+    {
+        id:1, 
+        title:"Hockey Club", 
+        subtitle:"@ Septemvri", 
+        period:"October 2023 - Present", 
+        text:"Currently contracted for Hockey Club Septemvri, a prestigious hockey club in Sofia, contributing to the team's success in my first season in the professional Bulgarian league.",
+        text2:"Strategically positioned as a Right Forward, showcasing dynamic skills and contributing to the competitive edge of Septemvri in the Bulgarian league.",
+        text3:"Embarking on my first season in the professional Bulgarian league, I bring a fresh perspective and unwavering dedication to the success of Septemvri as a key player in the Right Forward position.",
+    },
+    {
+        id:2, 
+        title:"Ice Hockey Coach",
+        subtitle:"@ HC Varna", 
+        period:"January 2021 - Present", 
+        text:"Hockey Coach with a strategic approach to player development, emphasizing skill enhancement and team cohesion for competitive success.",
+        text2:"Demonstrated leadership and communication skills honed through experience as a Hockey Coach, fostering collaborative environments for optimal results.",
+        text3:"",
+    },
+    {
+        id:3, 
+        title:"Instructor",
+        subtitle:"@ Sport - Varna", 
+        period:"January 2020 - Present", 
+        text:"Experienced Instructor with 3+ plus years of experience, adept at cultivating success in both individual and team settings.",
+        text2:"Proven track record as a motivator and mentor, instilling a passion for excellence and continuous improvement in both coaching and instructional roles.",
+        text3:"Instructor specializing in the latest industry trends, providing cutting-edge knowledge and hands-on experience to empower individuals interest.",
+    },
+    {
+        id:4, 
+        title:"IT Master",
+        subtitle:"@ Class №10", 
+        period:"January 2022 - June 2023", 
+        text:"Collaboration with fellow students, particularly developing functional specifications, through internal API integrations.",
+        text2:"Developed and styled the web application for UE - Varna using React, Node.js and Tailwind with addition Chakra UI for styling the app.",
+        text3:"Contributed extensively to the creation of Prodavalnik, a public-facing market for selling or buying books from other students."
+    }
+    ,
 ] as const;
 
 export const projectShowcase = [
