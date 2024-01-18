@@ -232,6 +232,10 @@
   .project-headings {
     font-size: clamp(24px, 5vw, 28px);
   }
+
+  .writing-mode {
+    writing-mode: vertical-rl;
+  }
 }
 
 *,*::before,*::after {
