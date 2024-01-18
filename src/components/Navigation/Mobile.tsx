@@ -2,6 +2,7 @@ import { motion, Variants, AnimatePresence } from 'framer-motion'
 import Button from 'components/HTML/Button'
 import ResumeFile from "assets/files/Ivan-Mihaylov-Sarabeev-Resume.pdf"
 import { headerLinks } from 'constants/data'
+import { Link } from 'react-scroll'
 
 type MobileProps = {
     isOpen:boolean;
@@ -68,9 +69,9 @@ const Mobile = ({isOpen}:MobileProps) => {
                             return (
                                 <motion.li variants={itemVariants} key={item.id} className='flex flex-col items-center mx-auto mt-0 mb-5'>
                                     <strong className='block mb-1 text-green regular-14'>{item.label}</strong>
-                                    <a href={item.link} className='inline-block relative p-2 hover:text-green'>
+                                    <Link to={item.link} smooth={true} className='inline-block relative p-2 cursor-pointer hover:text-green'>
                                         {item.text}
-                                    </a>
+                                    </Link>
                                 </motion.li>
                             )
                         })}
