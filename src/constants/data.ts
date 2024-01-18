@@ -80,8 +80,17 @@ export const projectShowcase = [
         source:"https://github.com/IvanSarabeev/TaskManager",
         imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705050811/jeao6pzobncv7di8jq1g.png",
         stack:["Laravel","PHP8","Alpine.js","MySQL","Tailwind","Bootstrap"],
-        text:"Task Manager is a secure task management app with user authentication, protected routes, and CRUD features. Organize, prioritize, and collaborate on tasks seamlessly with this intuitive solution. and mobile friendly design .",
+        text:"Task Manager is a secure task management app featuring user authentication, protected routes, CRUD operations and mobile friendly design. The main focus is to organize, prioritize, and collaborate on tasks seamlessly with this intuitive solution and get the best user experience possible.",
     },    
+    {
+        id:4,
+        title:"Movie Watchlist",
+        preview:"https://react-portfolio-delta-pied.vercel.app",
+        source:"https://github.com/IvanSarabeev/React-Portfolio",
+        imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705577040/th72qnigpdhvmofqfrd7.png",
+        stack:["React","JavaScript(ES6+)","Tailwind","React-Router","Framer-Motion","Vercel"],
+        text:"This is my first professional portfolio showcased a seamless multi-layer design. It aimed to provide an engaging user experience with smooth navigation, highlithing my creativity and project ideas, also within it I'm showcasing my coding experience and much more interesting information.",
+    },
 ] as const;
 
 export const noteworthProjects = [
@@ -98,7 +107,7 @@ export const noteworthProjects = [
         title:"Mish Mash",
         preview:"https://mishmashgrillmeal.com",
         source:"https://github.com/IvanSarabeev/Mish-Mash",
-        stack:["React","React-Router","Tailwind","Framer Motion","Netlify"],
+        stack:["React","React-Router","Tailwind","Framer-Motion","Netlify"],
         text:"Elevating Fast Food through Innovation 🚀 - 🍟 A UK-based online fast-food platform designed for convenience and flavor. - 💻 Tech Stack: React and Tailwind for a responsive UI. - 🌍 Leveraging Netlify for lightning-fast hosting.",
     },
     {
