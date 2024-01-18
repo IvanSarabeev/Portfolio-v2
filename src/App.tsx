@@ -4,6 +4,7 @@ import About from './pages/About'
 import Experience from './pages/Experience'
 import Projects from './pages/Projects'
 import ExtendProjects from './pages/ExtendProjects'
+import Contact from './pages/Contact'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Experience />
         <Projects />
         <ExtendProjects />
+        <Contact />
       </Layout>
     </>
   )

@@ -77,6 +77,11 @@
     font-size: clamp(40px, 8vw, 80px);
   }
 
+  .contact-heading {
+    font-size: clamp(40px, 5vw, 60px);
+    line-height: 1.1;
+  }
+
   .email-btn {
     font-family: var(--font-mono);
     font-size: 14px;
@@ -115,6 +120,26 @@
     outline:none;
     transform: translate(-4px, -4px);
     box-shadow: 3px 3px 0 0 var(--green);
+  }
+
+  .contact-btn {
+    font-family: var(--font-mono);
+    line-height: 1;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 4px;
+    color: var(--green);
+    margin-top: 50px;
+    padding:1.25rem 1.75rem;
+    border:1px solid var(--green);
+    background-color: transparent;
+    transition: var(--transition);
+  }
+
+  .contact-btn:hover {
+    outline: none;
+    box-shadow: 4px 4px 0 0 var(--green);
+    transform: translate(-5px, -5px);
   }
 
   .ham-icon {
