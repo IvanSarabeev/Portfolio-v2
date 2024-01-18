@@ -16,20 +16,18 @@ const Header = () => {
   } 
 
   return (
-    <header className='w-full fixed top-0 z-10 h-24 flex items-center justify-between filter-none backdrop-filter pointer-events-auto bg-header-bg px-6 md:px-8 lg:px-10 xl:px-12'>
+    <header className='w-full fixed top-0 z-30 h-[70px] lg:h-24 flex items-center justify-between filter-none backdrop-filter backdrop-blur-sm pointer-events-auto bg-header-bg shadow-header shadow-navy px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12'>
       <nav className='w-full relative z-20 flex items-center justify-between font-monts text-lightest-slate'>
         <div className='relative z-10 w-fit h-fit ease-slow-transition'>
-            <a href="#" aria-label='home' className='relative hover:outline-none hover:translate-y-1 hover:translate-x-1'>
+            <a href="#" aria-label='home' className='relative group'>
                 <img 
                 src={ImgLogo} 
                 alt='logo'
                 decoding='async'
                 loading='lazy'
-                height={60}
-                width={84}
-                className='aspect-auto object-cover ease-slow-transition'/>
+                className='h-12 w-11 aspect-auto object-cover ease-slow-transition group-hover:outline-none group-hover:translate-y-1 group-hover:translate-x-1'/>
                 <title>Logo</title>
-                <div className='-z-10 absolute top-0 left-0 ease-slow-transition translate-y-1 translate-x-1'></div>
+                <div className='h-12 w-11 -z-10 absolute top-0 left-0 ease-slow-transition group-hover:translate-y-1 group-hover:translate-x-1'></div>
             </a>
         </div>
         <div className="hidden md:flex items-center">
@@ -48,14 +46,19 @@ const Header = () => {
             </ol>
             <Button type='button' className='resume-btn' rel='noreferrer' onClick={downloadResume}>Resume</Button>
         </div>
-        <div className="block md:hidden pr-2.5">
-            <Button onClick={() => handleToggle()} className='mobile-btn' type='button' aria-label='Menu'>
-            {show ? 
-                <RxCross2 height={30} width={24} className='ham-icon'/> 
-                : <BiMenuAltRight height={30} width={24} className='ham-icon'/> 
-            }
+        <div 
+          className="block md:hidden pr-2.5 mb-3">
+            <Button 
+            type='button'
+            aria-label='Menu'
+            className='mobile-btn'
+            onClick={() => handleToggle()} 
+            >
+              {show ? 
+                <RxCross2 className='ham-icon'/> : <BiMenuAltRight className='ham-icon'/> 
+              }
             </Button>
-            {show ? <Mobile /> : null}
+            {show ? <Mobile isOpen={show}/> : null}
         </div>
       </nav>
     </header>

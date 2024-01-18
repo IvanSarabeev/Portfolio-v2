@@ -40,6 +40,7 @@ export default {
       },
       boxShadow:{
         'mobile':'-10px 0px 30px -15px',
+        'header':'0px 10px 30px -10px',
       },
       boxShadowColor:{
         'light-navy':'rgba(2,12,27,0.7)',
