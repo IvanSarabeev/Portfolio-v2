@@ -2,6 +2,7 @@ import { headerLinks } from 'constants/data'
 import Button from 'components/HTML/Button'
 import ResumeFile from 'assets/files/Ivan-Mihaylov-Sarabeev-Resume.pdf'
 import Mobile from './Mobile'
+import { memo } from 'react';
 import { useToggle } from "hooks/useToggle"
 import { BiMenuAltRight } from "react-icons/bi"
 import { RxCross2 } from "react-icons/rx"
@@ -61,4 +62,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default memo(Header);

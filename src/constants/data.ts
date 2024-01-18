@@ -1,14 +1,17 @@
+import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from "react-icons/fi";
+
 export const headerLinks = [
-    { id:1, label:"01.", text:"About", link:""},
-    { id:2, label:"02.", text:"Experience", link:""},
-    { id:3, label:"03.", text:"Work", link:""},
-    { id:4, label:"04.", text:"Contact", link:""},
+    { id:1, label:"01.", text:"About", link:"#about"},
+    { id:2, label:"02.", text:"Experience", link:"#experience"},
+    { id:3, label:"03.", text:"Work", link:"#projects"},
+    { id:4, label:"04.", text:"Contact", link:"#contact"},
 ] as const;
 
 export const socialLinks = [
-    { id:1, title:"GitHub",icon:"", link:"https://github.com/IvanSarabeev"},
-    { id:2, title:"LinkedIn",icon:"", link:"https://www.linkedin.com/in/ivansarabeev"},
-    { id:3, title:"Facebook",icon:"", link:"https://www.facebook.com/ivan.sarabeev"},
+    { id:1, title:"GitHub",icon:FiGithub, link:"https://github.com/IvanSarabeev"},
+    { id:2, title:"LinkedIn",icon:FiLinkedin, link:"https://www.linkedin.com/in/ivansarabeev"},
+    { id:3, title:"Facebook",icon:FiFacebook, link:"https://www.facebook.com/ivan.sarabeev"},
+    { id:4, title:"Instagram",icon:FiInstagram, link:"https://www.instagram.com/sarabeev99"},
 ] as const;
 
 export const experienceList = [
