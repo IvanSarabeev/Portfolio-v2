@@ -1,10 +1,10 @@
 import { FiGithub, FiLinkedin, FiFacebook, FiInstagram } from "react-icons/fi";
 
 export const headerLinks = [
-    { id:1, label:"01.", text:"About", link:"#about"},
-    { id:2, label:"02.", text:"Experience", link:"#experience"},
-    { id:3, label:"03.", text:"Work", link:"#projects"},
-    { id:4, label:"04.", text:"Contact", link:"#contact"},
+    { id:1, label:"01.", text:"About", link:"about"},
+    { id:2, label:"02.", text:"Experience", link:"experience"},
+    { id:3, label:"03.", text:"Work", link:"projects"},
+    { id:4, label:"04.", text:"Contact", link:"contact"},
 ] as const;
 
 export const socialLinks = [

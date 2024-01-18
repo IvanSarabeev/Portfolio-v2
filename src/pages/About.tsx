@@ -11,7 +11,7 @@ const skillsList = [
 
 const About = () => {
   return (
-    <section id="about" className="section-layout">
+    <section id="about" className="section-layout fade-in">
         <h2 className="numbered-headings">
             <span className="num-headings">01.</span> About Me
         </h2>

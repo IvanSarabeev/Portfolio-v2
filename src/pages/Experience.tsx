@@ -15,7 +15,7 @@ const Experience = () => {
   }
 
   return (
-    <section id='experience' className="max-w-[700px] overflow-x-hidden">
+    <section id='experience' className="max-w-[700px] overflow-x-hidden fade-in">
         <h2 className="numbered-headings">
             <span className="num-headings">02.</span>
             Where I've Worked

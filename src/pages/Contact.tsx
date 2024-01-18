@@ -2,7 +2,7 @@ import Button from "components/HTML/Button"
 
 const Contact = () => {
   return (
-    <section id="contact" className=" max-w-2xl text-center mx-auto mb-28">
+    <section id="contact" className="max-w-2xl text-center mx-auto mb-28 fade-in">
         <h2 className="block font-monts regular-16 text-green mb-5">
             <span className="num-headings">04.</span>
             What's next ?

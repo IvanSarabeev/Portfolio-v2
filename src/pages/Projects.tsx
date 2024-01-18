@@ -4,7 +4,7 @@ import { CiShare1 } from "react-icons/ci"
 
 const Projects = () => {
   return (
-    <section id="projects">
+    <section id="projects" className="fade-in">
         <h2 className="numbered-headings">
             <span className="num-headings">03.</span>
             Some Things I've Built

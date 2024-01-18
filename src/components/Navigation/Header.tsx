@@ -7,6 +7,7 @@ import { useToggle } from "hooks/useToggle"
 import { BiMenuAltRight } from "react-icons/bi"
 import { RxCross2 } from "react-icons/rx"
 import ImgLogo from "assets/images/s-logo.png"
+import { Link } from 'react-scroll';
 
 const Header = () => {
   const [show, handleToggle] = useToggle();
@@ -35,10 +36,10 @@ const Header = () => {
                 {headerLinks.map((link) => {
                     return(
                         <li key={link.id} className='relative regular-14 my-0 mx-2'>
-                            <a href={link.link} className=''>
+                            <Link to={link.link} smooth={true} duration={500} className='cursor-pointer'>
                                 <strong className='text-green regular-12 text-right'>{link.label}</strong>
                                 <p className='inline-block relative p-2 hover:text-green'>{link.text}</p>
-                            </a>
+                            </Link>
                             <span className='sr-only'>{link.text}</span>
                         </li>
                     )
