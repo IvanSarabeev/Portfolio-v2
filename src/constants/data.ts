@@ -17,6 +17,15 @@ export const socialLinks = [
 export const experienceList = [
     {
         id:1, 
+        title:"Junior Web Developer", 
+        subtitle:"@ myPOS Technologies", 
+        period:"Feb 2024 - Present",
+        text:"Developed Web Applications: Worked on developing web apps using PHP and Symfony, implementing both the front-end and back-end functionalities.",
+        text2:"Database Management: Designed and managed relation databases using MySQL, ensuring data integrity and optimizing queries for better performance.",
+        text3:"Best practices: Followed coding standards and best practices, ensuring maintainable and scalable code.",
+    },
+    {
+        id:2, 
         title:"Hockey Club", 
         subtitle:"@ Septemvri", 
         period:"October 2023 - Present", 
@@ -25,16 +34,16 @@ export const experienceList = [
         text3:"Embarking on my first season in the professional Bulgarian league, I bring a fresh perspective and unwavering dedication to the success of Septemvri as a key player in the Right Forward position.",
     },
     {
-        id:2, 
+        id:3, 
         title:"Ice Hockey Coach",
         subtitle:"@ HC Varna", 
         period:"January 2021 - Present", 
         text:"Hockey Coach with a strategic approach to player development, emphasizing skill enhancement and team cohesion for competitive success.",
         text2:"Demonstrated leadership and communication skills honed through experience as a Hockey Coach, fostering collaborative environments for optimal results.",
-        text3:"",
+        text3:"Led and managed a team of 14 players, overseeing all aspects of team operations, including practice planning, game strategy, and player development.",
     },
     {
-        id:3, 
+        id:4, 
         title:"Instructor",
         subtitle:"@ Sport - Varna", 
         period:"January 2020 - Present", 
@@ -43,7 +52,7 @@ export const experienceList = [
         text3:"Instructor specializing in the latest industry trends, providing cutting-edge knowledge and hands-on experience to empower individuals interest.",
     },
     {
-        id:4, 
+        id:5, 
         title:"IT Master",
         subtitle:"@ Class №10", 
         period:"January 2022 - June 2023", 

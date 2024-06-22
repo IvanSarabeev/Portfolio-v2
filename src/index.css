@@ -70,6 +70,10 @@
   .list-btn {
     @apply relative h-10 w-full min-w-[120px] flex items-center justify-center font-monts text-sm whitespace-nowrap text-left md:justify-start py-0 px-3.5 border-l-0 border-b-2 border-solid md:border-l-2 md:border-b-0 ease-slow-transition cursor-pointer border-lightest-navy hover:text-green hover:outline-none hover:bg-light-navy;
   }
+
+  .list-variant {
+    @apply relative pl-6 mb-2.5 before:absolute before:content-['▹'] before:left-0 before:text-green;
+  }
 }
 
 @layer utilities {
