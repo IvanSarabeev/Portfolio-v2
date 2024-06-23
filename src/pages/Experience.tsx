@@ -56,8 +56,7 @@ const Experience = () => {
                       currentIndex === index
                         ? "text-green bg-light-navy border-green"
                         : "text-inherit bg-transparent border-lightest-navy"
-                    } 
-                                    `}
+                    } `}
                   >
                     {item.title}
                   </Button>

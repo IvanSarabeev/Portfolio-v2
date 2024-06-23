@@ -1,15 +1,15 @@
+import React from "react";
 import { headerLinks } from "constants/data";
 import Button from "components/HTML/Button";
 import ResumeFile from "assets/files/Ivan-Mihaylov-Sarabeev-Resume.pdf";
 import Mobile from "./Mobile";
-import { memo } from "react";
 import { useToggle } from "hooks/useToggle";
 import { BiMenuAltRight } from "react-icons/bi";
 import { RxCross2 } from "react-icons/rx";
 import ImgLogo from "assets/images/s-logo.png";
 import { Link } from "react-scroll";
 
-const Header = () => {
+const Header: React.FC = () => {
   const [show, handleToggle] = useToggle();
 
   const downloadResume = () => {
@@ -85,6 +85,4 @@ const Header = () => {
   );
 };
 
-const memoHeader = memo(Header);
-
-export default memoHeader;
+export default Header;

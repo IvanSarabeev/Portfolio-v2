@@ -66,41 +66,54 @@ export const experienceList = [
 export const projectShowcase = [
     {
         id:1,
+        title:"Real Estate",
+        preview:"https://mern-estate-application-qv4g.onrender.com/",
+        source:"https://github.com/IvanSarabeev/VanLife",
+        imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1719070294/SignUpPage-Real-Estate_chirhr.png",
+        stack:["React","TypeScript","Tailwind","Redux","ShadcnUI","Node.js","Express", "MongoDB"],
+        stackStyle: "items-end justify-end",
+        text:"Fullstack real estate app, Fullstack real estate app, Fullstack real estate app, with microservices using Node.js for the back-end with NoSQL MongoDB and React in addition with Typescript for the client interface. For the user interface I'm also using tailwind with shadcnUi.",
+    },
+    {
+        id:2,
         title:"VanLife",
         preview:"https://rent-vanlife.netlify.app",
         source:"https://github.com/IvanSarabeev/VanLife",
         imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705050811/omsispfx8xkexeg4a796.png",
         stack:["React","TypeScript","Tailwind","Mirage","React-Router","Netlify"],
-        text:"Welcome to VanLife, your go-to platform for renting vans and exploring the open road. This React-based website offers a seamless experience for both renters and hosts. Users can navigate through the Home, About, Vans, and Host sections that requiress authentication process to ensures a secure environment.",
+        stackStyle: "items-start justify-start",
+        text:"Welcome to VanLife, your go-to platform for renting vans and exploring the open road. This React-based website offers a seamless experience for both renters and hosts. Users can navigate through requiress authentication process so that user's can enjoy.",
     },
     {
-        id:2,
+        id:3,
         title:"Movie Watchlist",
         preview:"https://movie-watchlist-delta-pied.vercel.app",
         source:"https://github.com/IvanSarabeev/Movie-Watchlist",
         imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705050812/w256fuh9lpbh0tjbnqpq.png",
         stack:["React","TypeScript","Tailwind","React-Router","Vercel"],
+        stackStyle: "items-end justify-end",
         text:"Searching app with minamalystic design, where you can find your favourite movie, also you get to search seemlessly and flawlessly, accross a collection of movies and if you don't have time, you can save them for later by adding them to your collection.",
     },
     {
-        id:3,
+        id:4,
         title:"Task Manager",
         preview:"",
         source:"https://github.com/IvanSarabeev/TaskManager",
         imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705050811/jeao6pzobncv7di8jq1g.png",
-        stack:["Laravel","PHP8","Alpine.js","MySQL","Tailwind","Bootstrap"],
+        stack:["Laravel","PHP","Alpine.js","MySQL","Tailwind","Bootstrap"],
+        stackStyle: "items-start justify-start",
         text:"Task Manager is a secure task management app featuring user authentication, protected routes, CRUD operations and mobile friendly design. The main focus is to organize, prioritize, and collaborate on tasks seamlessly with this intuitive solution and get the best user experience possible.",
     },    
-    {
-        id:4,
-        title:"Movie Watchlist",
-        preview:"https://react-portfolio-delta-pied.vercel.app",
-        source:"https://github.com/IvanSarabeev/React-Portfolio",
-        imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705577040/th72qnigpdhvmofqfrd7.png",
-        stack:["React","JavaScript(ES6+)","Tailwind","React-Router","Framer-Motion","Vercel"],
-        text:"This is my first professional portfolio showcased a seamless multi-layer design. It aimed to provide an engaging user experience with smooth navigation, highlithing my creativity and project ideas, also within it I'm showcasing my coding experience and much more interesting information.",
-    },
-] as const;
+    // { TODO: Add the Movie Watchlist project to noteworthProjects section
+    //     id:4,
+    //     title:"Movie Watchlist",
+    //     preview:"https://react-portfolio-delta-pied.vercel.app",
+    //     source:"https://github.com/IvanSarabeev/React-Portfolio",
+    //     imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705577040/th72qnigpdhvmofqfrd7.png",
+    //     stack:["React","JavaScript(ES6+)","Tailwind","React-Router","Framer-Motion","Vercel"],
+    //     text:"This is my first professional portfolio showcased a seamless multi-layer design. It aimed to provide an engaging user experience with smooth navigation, highlithing my creativity and project ideas, also within it I'm showcasing my coding experience and much more interesting information.",
+    // },
+];
 
 export const noteworthProjects = [
     {
