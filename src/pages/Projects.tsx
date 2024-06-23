@@ -9,7 +9,7 @@ const Projects = () => {
         Some Things I've Built
       </h2>
       {projectShowcase.map((item) => {
-        return <ProjectCard item={item} />;
+        return <ProjectCard key={item.id} item={item} />;
       })}
     </section>
   );

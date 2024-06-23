@@ -103,21 +103,20 @@ export const projectShowcase = [
         stack:["Laravel","PHP","Alpine.js","MySQL","Tailwind","Bootstrap"],
         stackStyle: "items-start justify-start",
         text:"Task Manager is a secure task management app featuring user authentication, protected routes, CRUD operations and mobile friendly design. The main focus is to organize, prioritize, and collaborate on tasks seamlessly with this intuitive solution and get the best user experience possible.",
-    },    
-    // { TODO: Add the Movie Watchlist project to noteworthProjects section
-    //     id:4,
-    //     title:"Movie Watchlist",
-    //     preview:"https://react-portfolio-delta-pied.vercel.app",
-    //     source:"https://github.com/IvanSarabeev/React-Portfolio",
-    //     imgSrc:"https://res.cloudinary.com/dplqrjsty/image/upload/v1705577040/th72qnigpdhvmofqfrd7.png",
-    //     stack:["React","JavaScript(ES6+)","Tailwind","React-Router","Framer-Motion","Vercel"],
-    //     text:"This is my first professional portfolio showcased a seamless multi-layer design. It aimed to provide an engaging user experience with smooth navigation, highlithing my creativity and project ideas, also within it I'm showcasing my coding experience and much more interesting information.",
-    // },
+    }
 ];
 
 export const noteworthProjects = [
     {
         id:1,
+        title:"Previous Portfolio",
+        preview:"https://react-portfolio-delta-pied.vercel.app",
+        source:"https://github.com/IvanSarabeev/React-Portfolio",
+        stack:["React","JavaScript(ES6+)","Tailwind","React-Router","Framer-Motion","Vercel"],
+        text:"This is my first professional portfolio showcased a seamless multi-layer design. It aimed to provide an engaging user experience with smooth navigation, highlithing my creativity and project ideas, also within it I'm showcasing my coding experience and much more interesting information.",
+    },
+    {
+        id:2,
         title:"Todo Application",
         preview:"https://todo-app-olive-nine.vercel.app",
         source:"https://github.com/IvanSarabeev/Todo-App",
@@ -125,7 +124,7 @@ export const noteworthProjects = [
         text:"Searching app with minamalystic design, where you can find your favourite movie, also you get to search seemlessly and flawlessly, accross a collection of movies and if you don't have time, you can save them for later by adding them to your collection.",
     },
     {
-        id:2,
+        id:3,
         title:"Mish Mash",
         preview:"https://mishmashgrillmeal.com",
         source:"https://github.com/IvanSarabeev/Mish-Mash",
@@ -133,19 +132,19 @@ export const noteworthProjects = [
         text:"Elevating Fast Food through Innovation 🚀 - 🍟 A UK-based online fast-food platform designed for convenience and flavor. - 💻 Tech Stack: React and Tailwind for a responsive UI. - 🌍 Leveraging Netlify for lightning-fast hosting.",
     },
     {
-        id:3,
+        id:4,
         title:"Hello-UE",
         preview:"",
         source:"https://github.com/IvanSarabeev/hello-ue",
         stack:["React","Node","Tailwind","Chakra UI"],
         text:"I was participaiting in a project for \"IT-Masterclass №10\", in collaboration with other fellow programmers, we were developing functional specifications, through many API request and react libraries and many more JavaScript functionalities.",
     },
-    {
-        id:4,
-        title:"Hockey Club - Varna",
-        preview:"http://www.hcvarna.bg",
-        source:"https://github.com/IvanSarabeev/Hockey-Club-Varna",
-        stack:["HTML5","CSS3","JavaScript","Animate.css"],
-        text:"I am happy to share that I've developed the website of our hockey club. I had the idea to focus on interactive design and a friendly interface that makes it easy to navigate and use for any user. The website provides information about the club and its events, supporting communication between the fans. \n I'm planning on changing the entire website by using React, Tailwind and Flowbite for the UI.",
-    },
-] as const;
+    // {
+    //     id:5,
+    //     title:"Hockey Club - Varna",
+    //     preview:"http://www.hcvarna.bg",
+    //     source:"https://github.com/IvanSarabeev/Hockey-Club-Varna",
+    //     stack:["HTML5","CSS3","JavaScript","Animate.css"],
+    //     text:"I am happy to share that I've developed the website of our hockey club. I had the idea to focus on interactive design and a friendly interface that makes it easy to navigate and use for any user. The website provides information about the club and its events, supporting communication between the fans. \n I'm planning on changing the entire website by using React, Tailwind and Flowbite for the UI.",
+    // },
+];

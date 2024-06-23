@@ -73,7 +73,7 @@ const Experience = () => {
           {experienceList
             .filter((text) => text.id === jobList[currentIndex].id)
             .map((item) => {
-              return <ExperienceCard item={item} />;
+              return <ExperienceCard key={item.id} item={item} />;
             })}
         </motion.article>
       </div>

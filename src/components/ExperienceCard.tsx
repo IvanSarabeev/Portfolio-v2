@@ -1,19 +1,10 @@
 import { FunctionComponent, memo } from "react";
 import { motion, Variants } from "framer-motion";
+import { ExperienceCardDetaiType } from "types/index";
 
 interface ExperienceCardProps {
-  item: ExperienceCardDetailProps;
+  item: ExperienceCardDetaiType;
 }
-
-type ExperienceCardDetailProps = {
-  id: number;
-  title: string;
-  subtitle: string;
-  period: string;
-  text: string;
-  text2: string;
-  text3: string;
-};
 
 const listVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
