@@ -48,7 +48,7 @@
   }
 
   .section-layout {
-    @apply min-h-screen flex flex-col items-start justify-center p-0;
+    @apply h-svh flex flex-col items-start justify-center p-0;
   }
 
   .skills-layout {
@@ -56,7 +56,7 @@
   }
 
   .skills-list {
-    @apply relative regular-12 font-monts pl-5 mb-2.5 before:content-['▹'] before:absolute before:left-0 before:inset-y-auto before:text-sm before:text-green hover:underline underline-offset-2 ease-slow-transition;
+    @apply relative regular-12 lg:regular-14 font-monts pl-5 mb-2.5 before:content-['▹'] before:absolute before:left-0 before:inset-y-auto before:text-sm before:text-green hover:underline underline-offset-2 ease-slow-transition duration-150 hover:text-green transition-all;
   }
 
   .img-wrapper {

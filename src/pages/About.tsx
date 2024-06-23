@@ -19,8 +19,9 @@ const About = () => {
         <div className="block text-pretty">
           <p className="mb-3.5">
             Hello, I'm Ivan Sarabeev, a passionate{" "}
-            <strong className="text-green"> React Developer </strong> and Ice
-            Hockey coach from Varna, Bulgaria.
+            <strong className="text-green"> React Developer </strong> following
+            <strong className="text-green"> a Full-stack</strong> journey and a
+            Ice Hockey coach from Varna, Bulgaria.
           </p>
           <p className="mb-3.5">
             I'm enthusiastic about embarking on my{" "}

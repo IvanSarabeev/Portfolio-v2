@@ -17,7 +17,7 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="w-full fixed top-0 z-30 h-[70px] lg:h-24 flex items-center justify-between filter-none backdrop-filter backdrop-blur-sm pointer-events-auto bg-header-bg shadow-header shadow-navy px-4 sm:px-6 md:px-8 lg:px-10 xl:px-12">
+    <header className="w-full fixed top-0 z-30 h-[70px] lg:h-24 flex items-center justify-between filter-none backdrop-filter backdrop-blur-sm pointer-events-auto bg-header-bg shadow-header shadow-navy px-4 pr-8 sm:px-6 md:px-8 lg:px-10 xl:px-12">
       <nav className="w-full relative z-20 flex items-center justify-between font-monts text-lightest-slate">
         <div className="relative z-10 w-fit h-fit ease-slow-transition">
           <a href="#" aria-label="home" className="relative group">
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
               className="size-12 aspect-auto object-cover ease-slow-transition group-hover:outline-none group-hover:translate-y-1 group-hover:translate-x-1"
             />
             <title>Logo</title>
-            <div className="h-12 w-11 -z-10 absolute top-0 left-0 ease-slow-transition group-hover:translate-y-1 group-hover:translate-x-1"></div>
+            <div className="size-12 -z-10 absolute top-0 left-0 ease-slow-transition group-hover:translate-y-1 group-hover:translate-x-1"></div>
           </a>
         </div>
         <div className="hidden md:flex items-center">
