@@ -48,7 +48,7 @@
   }
 
   .section-layout {
-    @apply h-svh flex flex-col items-start justify-center p-0;
+    @apply min-h-screen lg:h-full flex flex-col items-start justify-center p-0;
   }
 
   .skills-layout {

@@ -1,7 +1,7 @@
 import React from "react";
 import { headerLinks } from "constants/data";
 import Button from "components/HTML/Button";
-import ResumeFile from "assets/files/Ivan-Mihaylov-Sarabeev-Resume.pdf";
+import ResumeFile from "assets/files/Resume.pdf";
 import Mobile from "./Mobile";
 import { useToggle } from "hooks/useToggle";
 import { BiMenuAltRight } from "react-icons/bi";
